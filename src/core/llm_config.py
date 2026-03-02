@@ -11,7 +11,7 @@ import google.api_core.exceptions
 from dotenv import load_dotenv
 import yaml
 
-load_dotenv()
+load_dotenv(override=True)
 logger = logging.getLogger(__name__)
 
 

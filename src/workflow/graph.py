@@ -136,12 +136,10 @@ class FinanceWorkflow:
         return {name: agent.agent_description for name, agent in self.agents.items()}
 
 
-# Singleton workflow instance
-_workflow_instance = None
-
 def get_workflow(retriever=None) -> FinanceWorkflow:
-    """Get or create the workflow singleton."""
-    global _workflow_instance
-    if _workflow_instance is None:
-        _workflow_instance = FinanceWorkflow(retriever=retriever)
-    return _workflow_instance
+    """Create a new workflow instance.
+    Caching is handled by the caller (e.g. @st.cache_resource in app.py).
+    Removing the global singleton prevents stale API keys from being reused
+    after the user updates their .env file.
+    """
+    return FinanceWorkflow(retriever=retriever)

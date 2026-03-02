@@ -19,7 +19,17 @@ from dotenv import load_dotenv
 # Add project root to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../.."))
 
-load_dotenv()
+load_dotenv(override=True)
+
+# Bridge Streamlit secrets → environment variables (for Streamlit Cloud deployment)
+# On Streamlit Cloud there is no .env file; secrets are set via the dashboard.
+# Locally this block is a no-op because st.secrets is empty.
+try:
+    for _key, _value in st.secrets.items():
+        os.environ[_key] = str(_value)
+except Exception:
+    pass  # Running locally without Streamlit secrets configured — .env is used instead
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -188,6 +198,10 @@ def render_sidebar():
         st.divider()
         if st.button("Clear Chat History", use_container_width=True):
             st.session_state.conversation_history = []
+            st.rerun()
+
+        if st.button("🔄 Reload AI System", use_container_width=True, help="Use this after updating your API key in .env"):
+            initialize_system.clear()
             st.rerun()
 
         st.markdown("---")
