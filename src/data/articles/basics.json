@@ -1,0 +1,124 @@
+{
+  "articles": [
+    {
+      "id": "basics_001",
+      "title": "What is Investing?",
+      "category": "basics",
+      "content": "Investing is the act of allocating money or resources with the expectation of generating an income or profit over time. Unlike saving, which preserves money in low-risk accounts, investing involves putting money into assets like stocks, bonds, real estate, or mutual funds that have the potential to grow in value. The key principle behind investing is that money today is worth more than money tomorrow due to its potential earning capacity — this is known as the time value of money. When you invest, you are essentially putting your money to work, allowing it to generate more wealth over time through compound growth. Compound growth means that the returns you earn also earn returns, creating an exponential growth effect over long periods. For example, investing $10,000 at a 7% annual return would grow to approximately $19,671 in 10 years, $38,697 in 20 years, and $76,123 in 30 years — all without adding any additional money. This power of compounding is why starting to invest early is one of the most important financial decisions you can make.",
+      "tags": ["investing", "basics", "compound interest", "time value of money"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_002",
+      "title": "Understanding Stocks",
+      "category": "stocks",
+      "content": "A stock (also called a share or equity) represents fractional ownership in a company. When a company needs to raise capital, it can sell ownership stakes to the public through an Initial Public Offering (IPO), listing its shares on a stock exchange like the NYSE or NASDAQ. When you buy a stock, you become a shareholder — a partial owner of that company. As a shareholder, you benefit in two main ways: price appreciation (the stock's value increases) and dividends (the company shares its profits with shareholders). Stock prices fluctuate based on supply and demand, which is influenced by company performance, industry trends, economic conditions, and investor sentiment. Stocks are categorized by market capitalization: large-cap stocks (companies worth over $10 billion) like Apple and Microsoft tend to be more stable, while small-cap stocks (under $2 billion) may offer higher growth potential but come with more risk. Growth stocks prioritize reinvesting profits to expand the business, while value stocks trade below their intrinsic value. Understanding these categories helps investors build a diversified portfolio aligned with their risk tolerance and investment goals.",
+      "tags": ["stocks", "equity", "shares", "dividends", "market cap"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_003",
+      "title": "Understanding Bonds",
+      "category": "bonds",
+      "content": "A bond is a fixed-income instrument that represents a loan made by an investor to a borrower — typically a corporation or government. When you buy a bond, you are lending money to the issuer in exchange for periodic interest payments (called coupon payments) and the return of the principal amount when the bond matures. Bond prices and interest rates have an inverse relationship: when interest rates rise, existing bond prices fall, and vice versa. This is because new bonds issued at higher rates make existing lower-rate bonds less attractive. Bonds are generally considered less risky than stocks because they provide predictable income and are higher in the capital structure (meaning bondholders are paid before stockholders if a company goes bankrupt). Government bonds (like US Treasury bonds) are considered the safest, while corporate bonds offer higher yields but carry more credit risk. Bond ratings from agencies like Moody's and S&P help investors assess credit risk — bonds rated BBB or higher are considered investment-grade, while those below are high-yield (junk) bonds. Bonds play a crucial role in portfolio diversification, typically moving inversely to stocks during market downturns.",
+      "tags": ["bonds", "fixed income", "interest rates", "credit rating", "treasury"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_004",
+      "title": "What are ETFs?",
+      "category": "etfs",
+      "content": "An Exchange-Traded Fund (ETF) is a collection of securities (stocks, bonds, commodities, or other assets) bundled together and traded on a stock exchange — just like individual stocks. ETFs combine the diversification benefits of mutual funds with the trading flexibility of stocks. When you buy one share of an ETF, you effectively own a small piece of all the securities in that fund. Index ETFs track market indices like the S&P 500 (SPY, VOO) or NASDAQ (QQQ), providing broad market exposure at very low costs. Sector ETFs focus on specific industries like technology, healthcare, or energy. Bond ETFs provide fixed-income exposure without having to buy individual bonds. The expense ratio is the annual fee charged by the ETF, typically much lower than actively managed mutual funds — many index ETFs charge as little as 0.03-0.20% annually. ETFs are highly tax-efficient because their structure minimizes capital gains distributions. For most beginner investors, a simple portfolio of a few low-cost index ETFs can provide excellent diversification and long-term returns that beat the majority of actively managed funds.",
+      "tags": ["ETF", "index fund", "diversification", "expense ratio", "passive investing"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_005",
+      "title": "Diversification and Asset Allocation",
+      "category": "portfolio",
+      "content": "Diversification is the investment strategy of spreading your money across different assets, sectors, and geographies to reduce risk. The principle is that when one investment loses value, others may gain or hold steady, reducing the overall impact on your portfolio. True diversification goes beyond owning many stocks — it involves investing across different asset classes (stocks, bonds, real estate, commodities), sectors (technology, healthcare, finance), and geographies (domestic, international, emerging markets). Asset allocation is the process of deciding what percentage of your portfolio to put in each asset class, based on your goals, time horizon, and risk tolerance. A classic rule of thumb is the '60/40 portfolio' — 60% stocks for growth, 40% bonds for stability. More aggressive investors might hold 80-90% stocks, while conservative investors close to retirement might hold 60-70% bonds. Modern Portfolio Theory, developed by Harry Markowitz, mathematically demonstrates that a diversified portfolio can achieve the same expected return as a concentrated portfolio with significantly less risk — this is the principle of not putting all your eggs in one basket.",
+      "tags": ["diversification", "asset allocation", "portfolio", "risk management", "modern portfolio theory"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_006",
+      "title": "Understanding Risk and Return",
+      "category": "risk",
+      "content": "In investing, risk and return are fundamentally linked — generally, higher potential returns come with higher risk. Risk in investing refers to the uncertainty of outcomes and the possibility of losing some or all of your investment. There are several types of investment risk: market risk (the risk of the entire market declining), company-specific risk (the risk that a particular company performs poorly), interest rate risk (how changing rates affect bond and stock prices), inflation risk (the purchasing power of your returns may be eroded by inflation), and liquidity risk (the difficulty of selling an investment quickly at a fair price). Risk tolerance is deeply personal — it depends on your financial situation, time horizon, investment goals, and emotional capacity to handle losses. A useful framework is to ask: 'If my portfolio dropped 30% tomorrow, would I sell in panic or buy more?' Time horizon dramatically affects appropriate risk levels: with 30+ years until retirement, you can afford to ride out market downturns; with 2 years until a home purchase, you need stability. The standard deviation of returns and beta (compared to the market) are common mathematical measures of investment risk.",
+      "tags": ["risk", "return", "volatility", "risk tolerance", "market risk"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_007",
+      "title": "The Power of Compound Interest",
+      "category": "basics",
+      "content": "Albert Einstein reportedly called compound interest the 'eighth wonder of the world,' and for good reason. Compound interest is the process of earning returns not just on your original investment (principal), but also on all the interest or gains you've accumulated over time. This creates exponential growth rather than linear growth. The Rule of 72 is a quick mental math trick: divide 72 by your expected annual return to find how many years it takes to double your money. At 7% returns, your money doubles every ~10.3 years. At 10% returns, it doubles every ~7.2 years. Time is the most powerful variable in compound growth. Someone who invests $5,000 per year from age 25 to 35 (10 years, $50,000 total) and then stops will end up with more money at age 65 than someone who invests $5,000 per year from age 35 to 65 (30 years, $150,000 total) — assuming the same 7% annual return. The early investor benefits from 30+ years of compounding while only contributing for 10 years. This is why financial advisors consistently emphasize: start investing as early as possible, even with small amounts.",
+      "tags": ["compound interest", "time value", "rule of 72", "wealth building", "long-term investing"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_008",
+      "title": "401(k) and IRA Retirement Accounts",
+      "category": "retirement",
+      "content": "Tax-advantaged retirement accounts are powerful tools for building long-term wealth. A 401(k) is an employer-sponsored retirement savings plan where contributions are made pre-tax, reducing your current taxable income. Many employers offer a match (e.g., 50 cents for every dollar you contribute up to 6% of salary) — this is essentially free money and you should always contribute at least enough to get the full match. The 2024 contribution limit is $23,000 ($30,500 if you're 50+). An IRA (Individual Retirement Account) is opened independently of your employer. A Traditional IRA offers tax-deductible contributions, while a Roth IRA uses after-tax contributions but allows tax-free growth and withdrawals in retirement. The 2024 IRA contribution limit is $7,000 ($8,000 if 50+). Roth accounts are generally preferred for younger investors in lower tax brackets, as the tax-free growth over decades is enormously valuable. Early withdrawal (before age 59½) from these accounts typically incurs a 10% penalty plus taxes. Understanding these account types and maximizing contributions — especially to get employer matches — is foundational to retirement planning.",
+      "tags": ["401k", "IRA", "retirement", "tax-advantaged", "Roth", "traditional IRA"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_009",
+      "title": "Dollar-Cost Averaging Strategy",
+      "category": "strategy",
+      "content": "Dollar-cost averaging (DCA) is an investment strategy where you invest a fixed dollar amount at regular intervals (weekly, monthly, etc.) regardless of market conditions, rather than trying to invest a lump sum at the 'perfect' time. When prices are high, your fixed dollar amount buys fewer shares. When prices are low, the same amount buys more shares. Over time, this results in a lower average cost per share compared to investing a lump sum at potentially high prices. DCA removes the psychological pressure of market timing — one of the biggest mistakes individual investors make. Studies consistently show that even professional investors cannot reliably time the market. DCA is especially powerful when implemented through automatic contributions to a 401(k) or brokerage account. For example, contributing $500 monthly to an S&P 500 index fund over 20 years, you would have invested $120,000 in total. At historical average returns of ~10% annually, this would grow to approximately $343,000. The automation aspect of DCA also promotes investment discipline and prevents emotional decisions during market volatility.",
+      "tags": ["dollar-cost averaging", "DCA", "investment strategy", "market timing", "systematic investing"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_010",
+      "title": "Understanding Market Indices",
+      "category": "market",
+      "content": "A market index is a hypothetical portfolio of investment holdings that represents a segment of the financial market, used to track the performance of that market segment. The S&P 500 tracks 500 of the largest US companies by market capitalization, representing approximately 80% of the US equity market. It is the most widely followed indicator of US stock market performance and serves as the benchmark against which most investment managers are measured. The Dow Jones Industrial Average (DJIA) tracks 30 large, publicly-traded US companies and is price-weighted (higher-priced stocks have more influence). The NASDAQ Composite is heavily weighted toward technology companies. The Russell 2000 tracks 2,000 smaller US companies. Internationally, key indices include the FTSE 100 (UK), DAX (Germany), Nikkei 225 (Japan), and MSCI Emerging Markets. When financial media says 'the market is up today,' they usually mean the S&P 500. Index funds and ETFs that track these indices have become the investment vehicle of choice for many investors due to their low costs, broad diversification, and historical outperformance of actively managed funds over the long term.",
+      "tags": ["market index", "S&P 500", "NASDAQ", "Dow Jones", "benchmarking"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_011",
+      "title": "Mutual Funds vs ETFs",
+      "category": "funds",
+      "content": "Both mutual funds and ETFs pool money from many investors to buy a diversified collection of assets, but they differ significantly in structure and trading mechanics. Mutual funds are priced once per day after markets close at their Net Asset Value (NAV) — you buy or sell at that end-of-day price. ETFs trade throughout the day on stock exchanges like individual stocks, with prices fluctuating in real time. Mutual funds often have minimum investment requirements (e.g., $1,000-$3,000), while ETFs can be purchased for the price of a single share or even fractional shares. Expense ratios matter enormously over long periods — a 1% annual fee difference on a $100,000 portfolio over 30 years can cost over $100,000 in lost returns. Index mutual funds (like those from Vanguard) and index ETFs often have similarly low expense ratios. The main practical advantage of ETFs is intraday trading flexibility and typically lower minimum investments. Mutual funds may offer automatic investment features more easily. For most long-term investors, either low-cost index funds or low-cost index ETFs will serve equally well — the most important factors are low costs, broad diversification, and consistent contributions.",
+      "tags": ["mutual funds", "ETF", "expense ratio", "NAV", "index funds"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_012",
+      "title": "Tax-Loss Harvesting",
+      "category": "taxes",
+      "content": "Tax-loss harvesting is a strategy where you sell investments that have declined in value to realize a capital loss, which can be used to offset capital gains taxes. If your capital losses exceed your capital gains in a given year, you can deduct up to $3,000 of the excess loss against ordinary income, with remaining losses carried forward to future years. For example, if you have $10,000 in capital gains from selling Apple stock, you could sell a losing position (say, $10,000 loss in another stock) to offset those gains entirely, potentially saving $2,380 in federal taxes (at 23.8% capital gains rate). The 'wash-sale rule' prevents you from immediately buying back the same or substantially identical security within 30 days before or after the sale — but you can immediately buy a similar (not identical) investment to maintain market exposure. Tax-loss harvesting is most impactful for investors in high tax brackets with taxable (non-retirement) accounts. Robo-advisors like Betterment and Wealthfront automate this strategy, making it accessible to ordinary investors. The key insight is that it defers taxes, turning what would be an immediate tax liability into a future one, giving your money more time to compound.",
+      "tags": ["tax-loss harvesting", "capital gains", "taxes", "wash-sale rule", "tax efficiency"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_013",
+      "title": "Emergency Fund and Investment Priority",
+      "category": "personal_finance",
+      "content": "Before investing aggressively, it's crucial to establish a solid financial foundation. Financial advisors generally recommend following this priority order: First, build an emergency fund of 3-6 months of living expenses in a high-yield savings account or money market fund. This prevents you from being forced to sell investments at a loss during unexpected financial hardships like job loss or medical emergencies. Second, pay off high-interest debt (anything above 7-8% interest rate, particularly credit cards at 15-25%). The guaranteed 'return' of eliminating high-interest debt exceeds likely investment returns. Third, contribute to your 401(k) at least up to the employer match — this is a 50-100% instant return. Fourth, maximize your Roth IRA contributions. Fifth, maximize your 401(k) contributions. Sixth, invest in a taxable brokerage account. This 'investment waterfall' approach ensures you're not taking on unnecessary financial risk while maximizing tax advantages. Many people make the mistake of investing in taxable accounts while carrying high-interest debt or having no emergency fund — optimizing the order of these steps can be as valuable as investment returns themselves.",
+      "tags": ["emergency fund", "financial planning", "debt", "investment priority", "personal finance"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_014",
+      "title": "Behavioral Finance and Common Investment Mistakes",
+      "category": "psychology",
+      "content": "Behavioral finance studies how psychological factors affect investment decisions. Understanding common cognitive biases can help you make better financial choices. Loss aversion: research shows investors feel the pain of losses roughly twice as intensely as the pleasure of equivalent gains, causing irrational decision-making. Recency bias: overweighting recent events — after a bull market, assuming stocks will keep rising; after a crash, assuming they'll keep falling. Herd mentality: following the crowd into popular investments, often buying near peaks. Overconfidence: most investors believe they're above average at stock picking, even though the evidence shows most underperform the index. Confirmation bias: seeking information that confirms existing beliefs while ignoring contradictory evidence. The most dangerous investment mistake is panic selling during market downturns. The S&P 500 has had 12 bear markets (drops >20%) since 1950, yet has always recovered to new highs. An investor who sold during the 2009 financial crisis bottom would have locked in losses and missed the subsequent 400%+ rally. The antidote to behavioral biases is an automated, rules-based investment approach: regular contributions through DCA, maintaining your target asset allocation through periodic rebalancing, and avoiding checking your portfolio too frequently.",
+      "tags": ["behavioral finance", "loss aversion", "cognitive bias", "investment psychology", "mistakes to avoid"],
+      "source": "Financial Education Series"
+    },
+    {
+      "id": "basics_015",
+      "title": "Introduction to Cryptocurrency",
+      "category": "alternative_investments",
+      "content": "Cryptocurrency is a form of digital or virtual currency secured by cryptography, making it nearly impossible to counterfeit. Unlike traditional currencies issued by central banks, cryptocurrencies operate on decentralized networks using blockchain technology — a distributed ledger enforced by a network of computers. Bitcoin (BTC), created in 2009, was the first cryptocurrency and remains the largest by market capitalization. Ethereum (ETH) is the second-largest and enables smart contracts and decentralized applications. Thousands of other cryptocurrencies (altcoins) exist, most with highly speculative characteristics. Cryptocurrencies are characterized by extreme volatility — Bitcoin has experienced multiple 80-90% price drawdowns and subsequent recoveries. They offer potential benefits: portfolio diversification (low correlation to traditional assets), inflation hedge potential, and access to decentralized financial services. However, the risks are substantial: extreme price volatility, regulatory uncertainty, security vulnerabilities (hacking, lost keys), and the potential for complete loss of investment. Most financial advisors suggest limiting cryptocurrency exposure to 1-5% of a portfolio for investors who want exposure without excessive risk. Never invest money you cannot afford to lose entirely in cryptocurrency.",
+      "tags": ["cryptocurrency", "Bitcoin", "blockchain", "alternative investments", "digital assets"],
+      "source": "Financial Education Series"
+    }
+  ]
+}

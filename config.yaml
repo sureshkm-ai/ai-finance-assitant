@@ -1,0 +1,47 @@
+llm:
+  model: "gemini-2.0-flash"
+  temperature: 0.7
+  max_tokens: 2048
+  rate_limit_rpm: 55
+
+rag:
+  chunk_size: 1000
+  chunk_overlap: 200
+  top_k: 5
+  embedding_model: "all-MiniLM-L6-v2"
+  index_path: "src/data/faiss_index"
+
+market_data:
+  cache_ttl_seconds: 1800
+  primary_source: "yfinance"
+  fallback_source: "alpha_vantage"
+  default_symbols: ["SPY", "QQQ", "DIA", "BND", "GLD"]
+
+agents:
+  finance_qa:
+    name: "Finance Q&A Agent"
+    description: "Handles general financial education queries"
+  portfolio:
+    name: "Portfolio Analysis Agent"
+    description: "Reviews and analyzes user portfolios"
+  market:
+    name: "Market Analysis Agent"
+    description: "Provides real-time market insights"
+  goal_planning:
+    name: "Goal Planning Agent"
+    description: "Assists with financial goal setting and planning"
+  news:
+    name: "News Synthesizer Agent"
+    description: "Summarizes and contextualizes financial news"
+  tax:
+    name: "Tax Education Agent"
+    description: "Explains tax concepts and account types"
+
+workflow:
+  max_iterations: 10
+  fallback_agent: "finance_qa"
+
+ui:
+  title: "Finnie - AI Finance Assistant"
+  theme: "light"
+  max_conversation_length: 50
