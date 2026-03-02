@@ -2,7 +2,7 @@
 
 Democratizing Financial Literacy Through Intelligent Conversational AI
 
-A production-ready, multi-agent AI system for financial education and guidance. Built as a capstone project for the Applied Agentic AI for Software Engineers course (Interview Kickstart).
+A production-ready, multi-agent AI system for financial education and guidance.
 
 ---
 
@@ -276,5 +276,3 @@ This application is for educational purposes only and does not constitute financ
 - [Investopedia](https://www.investopedia.com/) - Financial concepts reference
 
 ---
-
-*Built with care as part of the Applied Agentic AI for SWEs capstone project — Interview Kickstart*
